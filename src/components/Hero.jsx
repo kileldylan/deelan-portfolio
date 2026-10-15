@@ -8,8 +8,8 @@ export default function Hero() {
           <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-accent">
             {profile.title} · {profile.location}
           </p>
-          <h1 className="mt-4 font-serif text-[clamp(3.4rem,10vw,6.6rem)] leading-[0.88] tracking-[-0.03em]">
-            Deelan<br />Kilel
+          <h1 className="mt-4 whitespace-nowrap font-serif text-[clamp(3rem,8vw,6.6rem)] leading-none tracking-[-0.04em]">
+            Deelan Kilel
           </h1>
           <p className="mt-6 max-w-[34ch] text-lg font-light text-[#d8d4cb] md:text-xl">
             I build the engines that power great user experiences — and the proof that the work was actually delivered.
