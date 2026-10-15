@@ -18,6 +18,7 @@ export default function Hero() {
             <a href="#work" className="rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-[#111]">See the work</a>
             <a href={profile.socials.github} target="_blank" rel="noreferrer" className="rounded-full border border-line px-5 py-2.5 text-sm hover:border-white">GitHub</a>
             <a href={profile.socials.linkedin} target="_blank" rel="noreferrer" className="rounded-full border border-line px-5 py-2.5 text-sm hover:border-white">LinkedIn</a>
+            <a href="/Deelan_Kipkorir_Kilel_CV.pdf" download="Deelan-Kilel-CV.pdf" className="rounded-full border border-line px-5 py-2.5 text-sm hover:border-accent hover:text-accent">Download CV</a>
           </div>
         </div>
         <aside className="rounded-2xl border border-line bg-gradient-to-b from-[#16161f] to-[#0c0c12] p-5 shadow-[0_30px_80px_rgba(0,0,0,.35)]">
