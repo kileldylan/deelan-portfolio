@@ -20,7 +20,7 @@ export const featured = {
   year: "2026",
   label: "Delivery verification",
   live: null,
-  repo: "https://github.com/kileldylan/ACI",
+  repo: "https://github.com/kileldylan/OnSpec",
   problem:
     "AI review bots are good at bugs and style. They do not prove that a change satisfied the requirement — or leave evidence you can still trust months later.",
   solution:
