@@ -4,7 +4,7 @@ const aci = {
   period: "2026",
   title: "ACI — Delivery verification",
   org: "Independent product",
-  href: "https://github.com/kileldylan/ACI",
+  href: "https://github.com/kileldylan/OnSpec",
   summary:
     "Evidence-first verification layer that answers whether a pull request actually delivered the requirement.",
   points: [
