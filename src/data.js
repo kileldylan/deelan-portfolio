@@ -88,16 +88,16 @@ export const projects = [
 ];
 
 export const technicalSkills = [
-  "React", "Python", "Django", "Node.js", "Express.js", "MySQL",
-  "Flutter", "Material-UI", "API Design", "Figma", "Blockchain Programming", "RESTful APIs",
+  "React", "Vite", "Python", "Django", "Fast API", "Node.js", "Express.js", "PostgreSQL", "MySQL",
+  "Flutter", "Material-UI", "API Design", "Figma", "RESTful APIs",
 ];
 
 export const devops = [
   { group: "Version control", items: ["Git", "GitHub"] },
-  { group: "Hosting", items: ["Vercel", "Railway", "Render", "Supabase"] },
-  { group: "API testing", items: ["Postman"] },
-  { group: "CI / CD", items: ["Railway CLI", "Heroku CLI", "PythonAnywhere", "Vercel Deployments"] },
-  { group: "Databases", items: ["Supabase", "Railway PostgreSQL", "ClearDB / PostgreSQL on Render"] },
+  { group: "Hosting", items: ["AWS", "Vercel", "Railway", "Render"] },
+  { group: "API testing", items: ["Postman", "Pytest"] },
+  { group: "CI / CD", items: ["AWS", "Railway CLI", "Heroku CLI", "PythonAnywhere", "Vercel Deployments"] },
+  { group: "Databases", items: ["MySQL", "PostgreSQL", "Supabase", "Railway PostgreSQL", "PostgreSQL on Render"] },
 ];
 
 export const softSkills = [
