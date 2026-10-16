@@ -88,8 +88,8 @@ export const projects = [
 ];
 
 export const technicalSkills = [
-  "React", "Vite", "Python", "Django", "Fast API", "Node.js", "Express.js", "PostgreSQL", "MySQL",
-  "Flutter", "Material-UI", "API Design", "Figma", "RESTful APIs",
+  "React", "Vite", "Python", "Django", "Fast API", "Node.js", "Express.js", "Docker", 
+  "LLM/ Agentic Workflows", "Flutter", "Material-UI", "API Design", "Figma", "RESTful APIs",
 ];
 
 export const devops = [
