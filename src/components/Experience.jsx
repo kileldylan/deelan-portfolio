@@ -4,7 +4,7 @@ const aci = {
   period: "2026",
   title: "ACI — Delivery verification",
   org: "Independent product",
-  href: "https://github.com/kileldylan/OnSpec",
+  href: "https://app.deelan.co.ke",
   summary:
     "Evidence-first verification layer that answers whether a pull request actually delivered the requirement.",
   points: [
@@ -189,7 +189,7 @@ export default function Experience() {
               View repository →
             </a>
             <a
-              href="on-spec.vercel.app"
+              href="app.deelan.co.ke"
               target="_blank"
               rel="noreferrer"
               className="mt-6 inline-flex rounded-full border border-line px-4 py-2 text-sm hover:border-white"
