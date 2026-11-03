@@ -34,3 +34,4 @@ contact form submissions return a setup error until the settings are added.
 The Vite development server proxies `/api` requests to port `3001`. For
 production, configure your hosting provider to route `/api` requests to this
 Node server, and set the same environment variables in the server environment.
+Updated CV file
