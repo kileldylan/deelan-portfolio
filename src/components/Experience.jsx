@@ -188,6 +188,14 @@ export default function Experience() {
             >
               View repository →
             </a>
+            <a
+              href="on-spec.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+              className="mt-6 inline-flex rounded-full border border-line px-4 py-2 text-sm hover:border-white"
+            >
+              Visit →
+            </a>
           </div>
 
           <div className="rounded-2xl border border-line bg-[#101018] p-6">
