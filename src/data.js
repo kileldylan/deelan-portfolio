@@ -9,7 +9,6 @@ export const profile = {
   socials: {
     github: "https://github.com/kileldylan",
     linkedin: "https://www.linkedin.com/in/deelan-kilel-4555aa284",
-    x: "https://x.com/dylan_kilel",
   },
   intro:
     "I build the engines that power great user experiences. I'm a full-stack developer who bridges the gap between pixel-perfect frontends and robust, scalable backends. With React on one side and Django/Node.js on the other, I architect and deliver complete, data-driven applications that are fast, reliable, and a breeze to use. I'm at my best when I'm tasked with turning a complex technical challenge into a simple, elegant solution.",
@@ -19,7 +18,7 @@ export const featured = {
   name: "ACI",
   year: "2026",
   label: "Delivery verification",
-  live: null,
+  live: "https://app.deelan.co.ke",
   repo: "https://github.com/kileldylan/OnSpec",
   problem:
     "AI review bots are good at bugs and style. They do not prove that a change satisfied the requirement — or leave evidence you can still trust months later.",
