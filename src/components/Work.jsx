@@ -20,8 +20,8 @@ export default function Work() {
                 <span key={s} className="rounded-full border border-line px-2.5 py-1 text-xs text-muted">{s}</span>
               ))}
             </div>
-            <a href={featured.repo} target="_blank" rel="noreferrer" className="mt-6 inline-flex rounded-full border border-line px-4 py-2 text-sm hover:border-white">
-              View repository →
+            <a href={featured.live} target="_blank" rel="noreferrer" className="mt-6 inline-flex rounded-full border border-line px-4 py-2 text-sm hover:border-white">
+              View live project →
             </a>
           </div>
           <div className="rounded-2xl border border-line bg-[#101018] p-6">
