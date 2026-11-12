@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 
 const links = [
-  ["Work", "#work"],
   ["About", "#about"],
+  ["Work", "#work"],
   ["Stack", "#stack"],
   ["Experience", "#experience"],
   ["Notes", "#notes"],
