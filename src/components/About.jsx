@@ -15,7 +15,7 @@ export default function About() {
         <aside className="h-fit rounded-2xl border border-line bg-bg-2 p-6">
           <p className="font-mono text-[11px] uppercase tracking-[0.14em] text-accent">Now</p>
           <ul className="mt-4 space-y-3 text-sm text-[#d4d0c6]">
-            <li>Building ACI — evidence-backed delivery verification.</li>
+            <li>Building Requora — evidence-backed delivery verification.</li>
             <li>Open to remote engineering roles and serious collaborators.</li>
             <li>Based in Nairobi. Shipping on Vercel, Railway, Render, Supabase.</li>
           </ul>

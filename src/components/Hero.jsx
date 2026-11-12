@@ -24,7 +24,7 @@ export default function Hero() {
         <aside className="rounded-2xl border border-line bg-gradient-to-b from-[#16161f] to-[#0c0c12] p-5 shadow-[0_30px_80px_rgba(0,0,0,.35)]">
           <div className="mb-5 flex items-start justify-between">
             <div>
-              <div className="grid h-9 w-9 place-items-center rounded-lg bg-[#1c1733] text-sm font-semibold text-violet">ACI</div>
+              <div className="grid h-9 w-fit place-items-center rounded-lg bg-[#1c1733] px-2.5 text-sm font-semibold text-violet">Requora</div>
               <p className="mt-3 text-[13px] text-muted">Did the PR actually deliver the requirement?</p>
             </div>
             <span className="font-mono text-[11px] uppercase tracking-[0.14em] text-accent">New · {featured.year}</span>

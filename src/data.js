@@ -15,15 +15,15 @@ export const profile = {
 };
 
 export const featured = {
-  name: "ACI",
+  name: "Requora",
   year: "2026",
   label: "Delivery verification",
-  live: "https://app.deelan.co.ke",
+  live: "https://requora.deelan.co.ke",
   repo: "https://github.com/kileldylan/OnSpec",
   problem:
     "AI review bots are good at bugs and style. They do not prove that a change satisfied the requirement — or leave evidence you can still trust months later.",
   solution:
-    "ACI ingests requirements from Jira, Linear, GitHub, or manual entry, decomposes them into criteria, tracks the PR and changed files, collects code/CI/test evidence tied to commit SHAs, runs deterministic rules plus an LLM evaluator, and marks delivery verified, partial, failed, or stale.",
+    "Requora ingests requirements from Jira, Linear, GitHub, or manual entry, decomposes them into criteria, tracks the PR and changed files, collects code/CI/test evidence tied to commit SHAs, runs deterministic rules plus an LLM evaluator, and marks delivery verified, partial, failed, or stale.",
   stack: ["Django", "GitHub webhooks", "Jira", "LLM evaluator", "Vite", "Evidence pipeline"],
 };
 
@@ -107,7 +107,7 @@ export const softSkills = [
 export const experience = [
   {
     period: "2026",
-    title: "ACI — Delivery verification",
+    title: "Requora — Delivery verification",
     org: "Independent product",
     points: [
       "Designed an evidence-first verification layer that answers whether a PR actually delivered the requirement.",

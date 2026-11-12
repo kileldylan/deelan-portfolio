@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 
-const aci = {
+const requora = {
   period: "2026",
-  title: "ACI — Delivery verification",
+  title: "Requora — Delivery verification",
   org: "Independent product",
-  href: "https://app.deelan.co.ke",
+  href: "https://requora.deelan.co.ke",
   summary:
     "Evidence-first verification layer that answers whether a pull request actually delivered the requirement.",
   points: [
@@ -158,20 +158,20 @@ export default function Experience() {
         <article className="grid gap-8 rounded-3xl border border-line bg-bg-2 p-6 md:grid-cols-[1.1fr_0.9fr] md:p-8">
           <div>
             <p className="font-mono text-[11px] uppercase tracking-[0.14em] text-accent">
-              Current · {aci.period}
+              Current · {requora.period}
             </p>
-            <h3 className="mt-2 text-3xl font-medium">{aci.title}</h3>
-            <p className="mt-1 text-sm text-muted">{aci.org}</p>
-            <p className="mt-4 text-[#cfcabf]">{aci.summary}</p>
+            <h3 className="mt-2 text-3xl font-medium">{requora.title}</h3>
+            <p className="mt-1 text-sm text-muted">{requora.org}</p>
+            <p className="mt-4 text-[#cfcabf]">{requora.summary}</p>
             <ul className="mt-4 space-y-2 text-[#cfcabf]">
-              {aci.points.map((point) => (
+              {requora.points.map((point) => (
                 <li key={point} className="border-l border-accent/40 pl-4">
                   {point}
                 </li>
               ))}
             </ul>
             <div className="mt-5 flex flex-wrap gap-2">
-              {aci.stack.map((item) => (
+              {requora.stack.map((item) => (
                 <span
                   key={item}
                   className="rounded-full border border-line px-2.5 py-1 text-xs text-muted"
@@ -181,7 +181,7 @@ export default function Experience() {
               ))}
             </div>
             <a
-              href={aci.href}
+              href={requora.href}
               target="_blank"
               rel="noreferrer"
               className="mt-6 inline-flex rounded-full border border-line px-4 py-2 text-sm hover:border-white"
@@ -189,7 +189,7 @@ export default function Experience() {
               View repository →
             </a>
             <a
-              href="app.deelan.co.ke"
+              href="https://requora.deelan.co.ke"
               target="_blank"
               rel="noreferrer"
               className="mt-6 inline-flex rounded-full border border-line px-4 py-2 text-sm hover:border-white"
