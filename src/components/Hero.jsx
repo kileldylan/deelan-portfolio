@@ -11,9 +11,6 @@ export default function Hero() {
           <h1 className="mt-4 whitespace-nowrap font-serif text-[clamp(3rem,8vw,6.6rem)] leading-none tracking-[-0.04em]">
             Deelan Kilel
           </h1>
-          <p className="mt-6 max-w-[34ch] text-lg font-light text-[#d8d4cb] md:text-xl">
-            I build the engines that power great user experiences — and the proof that the work was actually delivered.
-          </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#work" className="rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-[#111]">See the work</a>
             <a href={profile.socials.github} target="_blank" rel="noreferrer" className="rounded-full border border-line px-5 py-2.5 text-sm hover:border-white">GitHub</a>
